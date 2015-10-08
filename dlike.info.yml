@@ -1,0 +1,16 @@
+name: 'Drupal Like'
+description: 'Implements facebook like ''Like'' functionality using flag module'
+core: 8.x
+dependencies:
+  - flag
+package: Flags
+version: 8.x-1.x-dev
+project: dlike
+datestamp: '1443023945'
+type: module
+dlike-lib:
+  css:
+    theme:
+      dlike.css: {}
+  js:
+    dlike.js: {}

@@ -1,0 +1,5 @@
+dlike.user_list:
+  route_name: dlike.user_list
+dlike.append:
+  route_name: dlike.append
+  parent: dlike.user_list

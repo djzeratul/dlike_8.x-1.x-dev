@@ -1,0 +1,12 @@
+dlike.user_list:
+  path: '/dlike/{flag_type}/{content_id}/{flag_name}'
+  defaults:
+    _controller: '\Drupal\dlike\Controller\DefaultController::dlike_user_list'
+  requirements:
+    _permission: 'dlike access list'
+dlike.append:
+  path: '/dlike/{flag_type}/{content_id}/{flag_name}/append'
+  defaults:
+    _controller: '\Drupal\dlike\Controller\DefaultController::dlike_append'
+  requirements:
+    _permission: 'dlike access list'
